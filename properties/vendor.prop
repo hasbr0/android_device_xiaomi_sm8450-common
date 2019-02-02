@@ -358,6 +358,11 @@ sys.haptic.tap.light=5,2
 sys.haptic.tap.normal=3,2
 sys.haptic.trigger.drawer=2,0
 
+# IMS
+persist.dbg.volte_avail_ovr=1
+persist.dbg.vt_avail_ovr=1
+persist.dbg.wfc_avail_ovr=1
+
 # Incremental
 ro.incremental.enable=yes
 
