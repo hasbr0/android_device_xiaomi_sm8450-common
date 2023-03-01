@@ -448,6 +448,9 @@ subsystem mem_buf_vm
 # socinfo
 /sys/devices/soc0           serial_number            0000    root    root
 
+# Charger
+/sys/class/qcom-battery     input_suspend            0660    system  system
+
 #asm330 sensor
 #common sensors files
 /sys/devices/platform/soc/*.i2c/i2c-*/*-*/iio:device*   buffer/enable                   0664    system  system
