@@ -23,10 +23,17 @@ ro.nfc.port=I2C
 # QTI
 ro.vendor.qti.va_aosp.support=1
 
+# RCS
+persist.rcs.supported=1
+
 # Radio
 DEVICE_PROVISIONED=1
+persist.radio.NO_STAPA=1
+persist.radio.VT_CAM_INTERFACE=1
+persist.radio.VT_HYBRID_ENABLE=1
 persist.vendor.data.mode=concurrent
 ril.subscription.types=NV,RUIM
+ro.telephony.default_cdma_sub=0
 ro.telephony.default_network=33,33
 telephony.lteOnCdmaDevice=1
 
