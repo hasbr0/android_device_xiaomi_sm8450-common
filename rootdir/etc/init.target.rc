@@ -247,6 +247,9 @@ on boot
     chown system system /sys/class/qcom-battery/input_suspend
     chmod 774 /sys/class/qcom-battery/input_suspend
 
+    # Reverse charging (PowerShare)
+    chown system system /sys/class/qcom-battery/reverse_chg_mode
+    chmod 0644 /sys/class/qcom-battery/reverse_chg_mode
 
     # game plaid mode
     chown system system  /sys/devices/virtual/gpu_plaid/plaid/game_data
