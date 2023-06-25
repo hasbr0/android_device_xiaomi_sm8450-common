@@ -903,7 +903,9 @@ vendor/lib64/libmialgo_video_seg_depth.so
 vendor/lib64/libmialgoengine.so
 vendor/lib64/libmibokeh_845_video.so
 vendor/lib64/libmibokeh_855.so
+vendor/lib64/libmibokeh_mask.so
 vendor/lib64/libmibokeh_mask_dsp.so
+vendor/lib64/libmiphone_capture_bokeh.so
 vendor/lib64/libmiphone_capture_ldc.so
 vendor/lib64/libmiphone_preview_bokeh.so
 vendor/lib64/libmiphone_preview_ldc.so
